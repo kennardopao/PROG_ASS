@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+int main()
+
+{
+    string nname, lname, nickname;
+    char mi;
+    int age;
+
+    cout<< "Please Enter your Nickname: ";
+    cin>>nickname;
+    cout<<endl;
+    cout<< "Welcome "<<nickname<<"!"<<endl;
+    cout<<endl;
+    cout<< "Please enter your informations";
+    cout<<endl;
+    cout<< "First Name: ";
+    cin>>nname;
+    cout<< "Middle Initial: ";
+    cin>>mi;
+    cout<< "Last Name: ";
+    cin>>lname;
+    cout<< "Age: ";
+    cin>>age;
+    cout<<endl;
+    cout<<"Thank you!" <<endl;
+    cout<<endl;
+    cout<< "Your informations are:";
+    cout<<endl;
+    cout<< "Name: "<<nname<<" "<<mi<<" "<<lname;
+    cout<<endl;
+    cout<< "Age: "<<age;
+
+    return 0;
+}
+
